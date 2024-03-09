@@ -2,17 +2,18 @@
 module.exports = {
   content: ["./docs/**/*.{html,js}"],
   theme: {
-    // colors: {
-    //   // primary
-    //   // primary: "hsl(6, 100%, 80%) to hsl(335, 100%, 65%)",
-    //   primary: "rgb(var(--color-primary) / <alpha-value>)",
-    // },
     extend: {
       colors: {
-        // primary
-        "regal-blue": "hsl(6, 100%, 80%) to hsl(335, 100%, 65%)",
+        // primary and secondary
         primary: "#FFCA80",
         secondary: "#A800BA",
+
+        // Neutral
+
+        PaleBlue: "#D0EEFF",
+        GrayishBlue: "#8B9393",
+        DarkBlue: "#1B354B",
+        VeryDarkBlue: " #13121D",
       },
     },
   },
