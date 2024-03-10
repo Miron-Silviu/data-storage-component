@@ -544,8 +544,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .w-full {
   width: 100%;
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-GrayishBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(139 147 147 / var(--tw-bg-opacity));
+}
+
+.bg-DarkBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 53 75 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
