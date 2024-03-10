@@ -544,40 +544,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.h-max {
-  height: -moz-max-content;
-  height: max-content;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.bg-\[url\(\'bg-mobile\.png\'\)\] {
-  background-image: url('bg-mobile.png');
-}
-
-.bg-auto {
-  background-size: auto;
 }
 
 .bg-cover {
   background-size: cover;
 }
 
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-repeat {
-  background-repeat: repeat;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+@media (min-width: 50px) and (max-width: 767px) {
+  .sm\:bg-\[url\(\'bg-mobile\.png\'\)\] {
+    background-image: url('bg-mobile.png');
+  }
 }
