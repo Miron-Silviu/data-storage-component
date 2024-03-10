@@ -544,7 +544,40 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-VeryDarkBlue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(19 18 29 / var(--tw-bg-opacity));
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.bg-\[url\(\'bg-mobile\.png\'\)\] {
+  background-image: url('bg-mobile.png');
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-repeat {
+  background-repeat: repeat;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
