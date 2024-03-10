@@ -544,7 +544,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-VeryDarkBlue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(19 18 29 / var(--tw-bg-opacity));
+.w-full {
+  width: 100%;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 50px) and (max-width: 767px) {
+  .sm\:bg-\[url\(\'bg-mobile\.png\'\)\] {
+    background-image: url('bg-mobile.png');
+  }
 }
