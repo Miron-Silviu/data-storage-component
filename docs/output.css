@@ -552,45 +552,12 @@ video {
   display: flex;
 }
 
-.inline-flex {
-  display: inline-flex;
-}
-
 .h-screen {
   height: 100vh;
 }
 
-.max-h-fit {
-  max-height: -moz-fit-content;
-  max-height: fit-content;
-}
-
-.max-h-full {
-  max-height: 100%;
-}
-
-.max-h-96 {
-  max-height: 24rem;
-}
-
 .w-1\/2 {
   width: 50%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-screen {
-  width: 100vw;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
 }
 
 .items-center {
@@ -601,19 +568,23 @@ video {
   justify-content: center;
 }
 
-.bg-blue-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
+.gap-10 {
+  gap: 2.5rem;
 }
 
-.bg-red-700 {
+.bg-DarkBlue {
   --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+  background-color: rgb(27 53 75 / var(--tw-bg-opacity));
 }
 
 .bg-blue-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+
+.bg-red-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -628,21 +599,16 @@ video {
   padding: 2.5rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+.p-5 {
+  padding: 1.25rem;
 }
 
-.align-middle {
-  vertical-align: middle;
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 @media (min-width: 50px) and (max-width: 767px) {
-  .sm\:max-h-fit {
-    max-height: -moz-fit-content;
-    max-height: fit-content;
-  }
-
   .sm\:bg-\[url\(\'bg-mobile\.png\'\)\] {
     background-image: url('bg-mobile.png');
   }
