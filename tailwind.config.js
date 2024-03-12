@@ -2,6 +2,16 @@
 module.exports = {
   content: ["./docs/**/*.{html,js}"],
   theme: {
+    borderRadius: {
+      none: "0",
+      sm: "0.125rem",
+      DEFAULT: "0.25rem",
+      DEFAULT: "4px",
+      md: "0.375rem",
+      lg: "0.5rem",
+      full: "99px",
+      large: "12px",
+    },
     screens: {
       sm: { min: "50px", max: "767px" },
       // => @media (min-width: 640px and max-width: 767px) { ... }
