@@ -572,19 +572,14 @@ video {
   gap: 2.5rem;
 }
 
-.bg-DarkBlue {
+.bg-VeryDarkBlue {
   --tw-bg-opacity: 1;
-  background-color: rgb(27 53 75 / var(--tw-bg-opacity));
+  background-color: rgb(19 18 29 / var(--tw-bg-opacity));
 }
 
 .bg-blue-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
-
-.bg-red-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -599,8 +594,36 @@ video {
   padding: 2.5rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-px {
+  padding: 1px;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p-0\.5 {
+  padding: 0.125rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .py-9 {
