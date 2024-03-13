@@ -556,8 +556,8 @@ video {
   height: 100vh;
 }
 
-.w-1\/2 {
-  width: 50%;
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -609,6 +609,11 @@ video {
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 50px) and (max-width: 767px) {
