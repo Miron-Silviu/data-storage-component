@@ -43,9 +43,9 @@ module.exports = {
         Blue: "#2596be",
         white: "#ffffff",
       },
-      // fontFamily: {
-      //   Raleway: ['"Raleway"', ...defaultTheme.fontFamily],
-      // },
+      fontFamily: {
+        Raleway: ['"Raleway"'],
+      },
     },
   },
   plugins: [],
