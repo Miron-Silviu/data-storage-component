@@ -41,6 +41,7 @@ module.exports = {
         DarkBlue: "#1B354B",
         VeryDarkBlue: " #13121D",
         Blue: "#2596be",
+        white: "#ffffff",
       },
       // fontFamily: {
       //   Raleway: ['"Raleway"', ...defaultTheme.fontFamily],
