@@ -27,7 +27,7 @@
       class=" main-container flex m-auto justify-center items-center  h-screen flex-col "
     >
       <div
-        class="first-container bg-blue-900  bg-repeat-space m-auto p-10 rounded-lg  rounded-tr-full"
+        class="first-container bg-blue-900  bg-repeat-space p-10 rounded-lg  rounded-tr-full mb-2.5 "
       >
         <img class="logo-image" src="logo.svg" alt="logo" />
         <div class="images-contaier flex py-9 gap-10">
@@ -42,13 +42,20 @@
           </div>
         </div>
       </div>
-      <div class="second-container bg-blue-900 m-auto rounded-lg">
-        <p class="second-container-description text-white">
+      <div class="second-container bg-blue-900  rounded-lg p-5 mt-2.5">
+        <p class="second-container-description text-white w-54">
           You've used <strong>815 GB</strong> of your storage
         </p>
-        <div class="infographic">
+        <div class="infographic m-auto flex justify-center p-3">
           <div>
-            <img src="circle-solid.svg" alt="circle" />
+            <input
+              class="w-60 rounded-lg accent-primary p-0.3 bg-blue-950  colors-white"
+              type="range"
+              id="data"
+              name="data"
+              min="0"
+              max="1000"
+            />
           </div>
         </div>
         <div class="memory">
