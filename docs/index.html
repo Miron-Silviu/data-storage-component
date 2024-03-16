@@ -22,6 +22,7 @@
   </head>
   <body
     class="main-container
+    
      bg-[url('bg-mobile.png')]  
      bg-cover m-auto justify-center 
      items-center 
@@ -36,6 +37,7 @@
        h-screen  
        md:flex
        md:gap-6
+       md:mx-10
        "
     >
       <div
@@ -74,13 +76,16 @@
        md:px-16
        md:py-2
        md:mt-10
+       md:text-left
        "
       >
         <p
           class="second-container-description
            text-white 
            w-54 text-sm 
-           text-center"
+           sm:text-center 
+           md:pt-7
+           "
         >
           You've used <strong> 815 GB </strong> of your storage
         </p>
@@ -92,12 +97,14 @@
         >
           <div>
             <input
-              class="w-60 
+              class="sm:w-60 
               rounded-lg
                accent-primary 
                p-0.3
                 bg-blue-950  
-               colors-white"
+               md:w-72
+               
+               "
               type="range"
               id="data"
               name="data"
@@ -106,7 +113,7 @@
             />
           </div>
         </div>
-        <div class="memory flex justify-between mb-5">
+        <div class="memory flex justify-between :mb-5 ">
           <p class="memory-starts text-white">0 GB</p>
           <p class="memory-ends text-white">1000 GB</p>
         </div>
@@ -116,8 +123,12 @@
          bg-white flex 
          p-3 px-7 
          absolute 
-         bottom-48 
-         rounded-lg gap-2"
+         sm:bottom-48 
+         rounded-lg gap-2
+         md:absolute
+        md:top-80
+        md:left-3/4
+         "
       >
         <p class="font-extrabold text-2xl">185</p>
         <p class="text-xs mt-2">GB LEFT</p>
