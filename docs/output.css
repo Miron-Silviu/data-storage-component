@@ -695,6 +695,10 @@ video {
 }
 
 @media (min-width: 50px) and (max-width: 1410px) {
+  .sm\:top-48 {
+    top: 12rem;
+  }
+
   .sm\:bottom-48 {
     bottom: 12rem;
   }
@@ -733,10 +737,6 @@ video {
 
   .md\:bottom-1\/2 {
     bottom: 50%;
-  }
-
-  .md\:right-1\/2 {
-    right: 50%;
   }
 
   .md\:right-10 {
