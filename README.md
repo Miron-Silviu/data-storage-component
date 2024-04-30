@@ -7,10 +7,6 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -22,11 +18,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](<![image](image.png)>)
+![image](image.png)
 
 ### Links
 
-- Solution URL: [https://miron-silviu.github.io/data-storage-component/]()
+- Solution URL: [https://miron-silviu.github.io/data-storage-component/]
 
 ## My process
 
