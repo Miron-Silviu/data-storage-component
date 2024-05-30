@@ -2,8 +2,8 @@
 
 - [Overview](#overview)
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
 - [Links](#links)
+- [Screenshot](#screenshot)
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
@@ -18,7 +18,7 @@ Users should be able to:
 
 # LINK
 
-[CLICK ME FOR LIVE VIEW] (https://miron-silviu.github.io/data-storage-component/)
+[CLICK ME FOR LIVE VIEW](https://miron-silviu.github.io/data-storage-component/)
 
 ## Screenshot
 
