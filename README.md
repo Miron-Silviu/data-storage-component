@@ -1,9 +1,9 @@
 ## Table of contents
 
+  - [Links](#links)
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -11,6 +11,9 @@
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+
+## Links
+[![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/data-storage-component/)
 
 ## Overview
 
@@ -24,9 +27,6 @@ Users should be able to:
 
 ![](<![image](image.png)>)
 
-### Links
-
-- Solution URL: [https://miron-silviu.github.io/data-storage-component/]()
 
 ## My process
 
